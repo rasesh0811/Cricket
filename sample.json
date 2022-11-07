@@ -1,0 +1,72 @@
+{
+    "Data": {
+        "Value": {
+            "temval": 98.0,
+            "temid": 2881010,
+            "tembal": 2.0,
+            "gdpt": "",
+            "ovpt": "",
+            "subleft": 107,
+            "suballd": 130,
+            "subusr": 23,
+            "subgdusr": 1,
+            "isacct": 1,
+            "mcapt": 60122,
+            "vcapt": 63755,
+            "bcapt": 0,
+            "plyid": [
+                9782,
+                60122,
+                11803,
+                70761,
+                4330,
+                66818,
+                66799,
+                63338,
+                63755,
+                82969,
+                65160
+            ],
+            "plyskl": [
+                4,
+                4,
+                1,
+                1,
+                1,
+                1,
+                3,
+                2,
+                2,
+                2,
+                2
+            ],
+            "skillcnt": 44122,
+            "isfreeup": 1,
+            "freeupcnt": 1,
+            "bst1gd": 0,
+            "bst2gd": 0,
+            "bst3gd": 0,
+            "bst4gd": 3,
+            "bst5gd": 7,
+            "bst6gd": 8,
+            "bst7gd": 13,
+            "bst8gd": 18,
+            "bst9gd": 21
+        },
+        "FeedTime": {
+            "UTCTime": "4/24/2022 10: 38: 26 AM",
+            "ISTTime": "4/24/2022 4: 08: 26 PM",
+            "CESTTime": "4/24/2022 12: 38: 26 PM"
+        }
+    },
+    "Meta": {
+        "Message": "cf_user_team_gameday_player_other_get",
+        "RetVal": 1,
+        "Success": True,
+        "Timestamp": {
+            "UTCTime": "4/24/2022 10: 38: 26 AM",
+            "ISTTime": "4/24/2022 4: 08: 26 PM",
+            "CESTTime": "4/24/2022 12: 38: 26 PM"
+        }
+    }
+}

@@ -266,7 +266,7 @@ def customCheckNRR():
   nrr = (totalRunsScored/totalBallsFaced - totalRunsConceded/totalBallsDelivered)*6
   print("Current NRR = "+ str(nrr))
 
-def barestOfMarginForNonDecrementOfNRR():
+def barestVictoryMarginForNonDecrementOfNRR():
   '''Finding the barest of margin required for keeping NRR atleast what it is at the moment'''
   teamCode = input("Enter team code ("+str(team_codes_list)+") : ")
   teamCode = teamCode.upper()
@@ -385,7 +385,7 @@ while True:
   print("3. Acquire target NRR.")
   print("4. Compare NRR.")
   print("5. Check Custom NRR.")
-  print("6. Minimum margin to avoid decrement of NRR")
+  print("6. Minimum victory margin to avoid decrement of NRR")
   print("7. Fetch Points Table Data")
   print("8. Save Data and Reset")
   print("9. Load Saved Data From Files")
@@ -403,7 +403,7 @@ while True:
   elif (choice == 5):
     customCheckNRR()
   elif (choice == 6):
-    barestOfMarginForNonDecrementOfNRR()
+    barestVictoryMarginForNonDecrementOfNRR()
   elif (choice == 7):
     fetchPointsTable()
   elif (choice == 8):

@@ -66,7 +66,7 @@ def print_current_nrrs():
   table = [['Team Code','Team Name', 'NRR']]
   for teamCode in teams:
     teamObject = teams[teamCode]
-    tableRow = [teamCode, teamObject.name, str(round(teamObject.currentNRR(), 3))]
+    tableRow = [teamCode, teamObject.name, str(round(teamObject.currentNRR(), 4))]
     table.append(tableRow)
   print(tabulate(table, headers='firstrow', tablefmt='fancy_grid'))
 
@@ -201,7 +201,7 @@ def acquireTargetNRR():
   if teamCode in teams:
     teamObject = teams[teamCode]
     print("Calculating for Team: "+teamObject.name)
-    print("Current NRR: "+str(round(teamObject.currentNRR(), 3)))
+    print("Current NRR: "+str(round(teamObject.currentNRR(), 4)))
   
   bowl1 = teamObject.ballsFaced
   bowl2 = teamObject.ballsDelivered
@@ -271,7 +271,7 @@ def barestOfMarginForNonDecrementOfNRR():
   if teamCode in teams:
     teamObject = teams[teamCode]
     print("Calculating for Team: "+teamObject.name)
-    print("Current NRR: "+str(round(teamObject.currentNRR(), 3)))
+    print("Current NRR: "+str(round(teamObject.currentNRR(), 4)))
   
   print("When my team bats first")
   compare_table_set_target = []

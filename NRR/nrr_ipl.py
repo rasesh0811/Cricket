@@ -377,6 +377,59 @@ def loadDataFromFile():
     teams[teamCode] = newTeam
   print(len(team_codes_list), "Teams Loaded")
 
+def loseAndAcquireTargetNRR():
+  teamCode = input("Enter team code ("+str(team_codes_list)+") : ")
+  teamCode = teamCode.upper()
+  if teamCode in teams:
+    teamObject = teams[teamCode]
+    print("Calculating for Team: "+teamObject.name)
+    print("Current NRR: "+str(round(teamObject.currentNRR(), 4)))
+  
+  bowl1 = teamObject.ballsFaced
+  bowl2 = teamObject.ballsDelivered
+  bat1 = teamObject.runsScored
+  bat2 = teamObject.runsConceded
+
+  targetNRR = float(input("Enter the NRR to reach:"))
+  toss = input("Enter whether '(bat/bowl)' first in this match: ") 
+  if(toss == "bowl"):
+    compare_table_fail_chase_target = []
+    
+    ballsFaced = bowl1 + ballsPerInnings
+    ballsDelivered = bowl2 + ballsPerInnings
+    runsInFinalInnings = [i for i in range(expected_min_total,expected_max_total,runs_in_increments_of)]
+    checkForAParticularScore = int(input("Enter custom value for runsConceded: "))
+    if(checkForAParticularScore>0):
+      runsInFinalInnings.append(checkForAParticularScore)
+    for runsConceded in runsInFinalInnings:
+      totalRunsScored = bat1
+      totalRunsConceded = bat2 + runsConceded
+      #targetNRR = ((bat1 + runsConceded - marginOfDefeat)/ballsFaced - (totalRunsConceded)/ballsDelivered)*6
+      marginOfDefeat = bat1 + runsConceded - (ballsFaced * ((targetNRR/6) + (totalRunsConceded)/ballsDelivered))
+      marginOfDefeat = math.floor(marginOfDefeat)
+      eventualNRR = ((bat1 + runsConceded - marginOfDefeat)/ballsFaced - (totalRunsConceded)/ballsDelivered)*6
+      compare_table_fail_chase_target.append((runsConceded, marginOfDefeat, eventualNRR))
+    print(tabulate(compare_table_fail_chase_target, headers=['Runs Conceded', 'Margin of Defeat(atmost)', 'Eventual NRR'], tablefmt='fancy_grid'))
+  elif(toss == "bat"):
+    compare_table_fail_defend_target = []
+    
+    ballsFaced = bowl1 + ballsPerInnings
+    ballsDelivered = bowl2
+    runsInFinalInnings = [i for i in range(expected_min_total,expected_max_total,runs_in_increments_of)]
+    checkForAParticularScore = int(input("Enter custom value for runsScored: "))
+    scoreDiff = int(input('Enter final score difference(0 for super over defeat, default = 1): ') or 1)
+    if(checkForAParticularScore>0):
+      runsInFinalInnings.append(checkForAParticularScore)
+    for runsScored in runsInFinalInnings:
+      totalRunsConceded = bat2 + runsScored + scoreDiff
+      totalRunsScored = bat1 + runsScored
+      oppChasedInBalls = (totalRunsConceded/(totalRunsScored/(ballsFaced) - (targetNRR/6))) - ballsDelivered
+      oppChasedInBalls = math.ceil(oppChasedInBalls)
+      eventualNRR = (totalRunsScored/(ballsFaced) - (totalRunsConceded/(ballsDelivered + oppChasedInBalls)))*6
+      compare_table_fail_defend_target.append((runsScored, oppChasedInBalls, eventualNRR))
+    print(tabulate(compare_table_fail_defend_target, headers=['Runs Scored', 'Opp Chased In Balls(atleast)', 'Eventual NRR'], tablefmt='fancy_grid'))
+
+
 while True:
   print("============================")
   print("1. Print NRR For all teams.")
@@ -388,6 +441,7 @@ while True:
   print("7. Fetch Points Table Data")
   print("8. Save Data and Reset")
   print("9. Load Saved Data From Files")
+  print("10. Acquire target NRR(By Losing).")
   print("============================")
   print("Choose an option: ", end='')
   choice = int(input())
@@ -409,6 +463,8 @@ while True:
     saveTeamDataToFileAndReset()
   elif (choice == 9):
     loadDataFromFile()
+  elif (choice == 10):
+    loseAndAcquireTargetNRR()
   else:
     print("Choose valid option: ")
   print()

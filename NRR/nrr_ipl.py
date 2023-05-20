@@ -196,7 +196,7 @@ def compare():
   print(tabulate(compare_table_set_target, headers=['Runs Scored', 'Margin of Victory Required'], tablefmt='fancy_grid'))
   print(tabulate(compare_table_chase, headers=['Runs Conceded', 'To be chased in Balls'], tablefmt='fancy_grid'))
 
-def acquireTargetNRR():
+def winAndAcquireTargetNRR():
   teamCode = input("Enter team code ("+str(team_codes_list)+") : ")
   teamCode = teamCode.upper()
   if teamCode in teams:
@@ -382,7 +382,7 @@ while True:
   print("============================")
   print("1. Print NRR For all teams.")
   print("2. Add a new team data.")
-  print("3. Acquire target NRR.")
+  print("3. Acquire target NRR(By Winning).")
   print("4. Compare NRR.")
   print("5. Check Custom NRR.")
   print("6. Minimum victory margin to avoid decrement of NRR")
@@ -397,7 +397,7 @@ while True:
   elif (choice == 2):
     add_new_team()
   elif (choice == 3):
-    acquireTargetNRR()
+    winAndAcquireTargetNRR()
   elif (choice == 4):
     compare()
   elif (choice == 5):

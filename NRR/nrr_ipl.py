@@ -222,7 +222,6 @@ def winAndAcquireTargetNRR():
       runsInFinalInnings.append(checkForAParticularScore)
     for runsScored in runsInFinalInnings:
       totalRunsScored = bat1 + runsScored
-      marginOfVictory = 0  
       #targetNRR = (totalRunsScored/ballsFaced - (bat2 + runsScored - marginOfVictory)/ballsDelivered)*6
       marginOfVictory = bat2 + runsScored - ((totalRunsScored/ballsFaced) - (targetNRR/6))*ballsDelivered
       marginOfVictory = math.ceil(marginOfVictory)

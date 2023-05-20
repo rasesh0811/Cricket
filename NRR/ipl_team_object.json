@@ -1,0 +1,1504 @@
+{
+  "teamInfo": {
+    "id": 6904,
+    "objectId": 1298769,
+    "scribeId": 1298769,
+    "slug": "gujarat-titans",
+    "name": "Titans",
+    "longName": "Gujarat Titans",
+    "abbreviation": "GT",
+    "unofficialName": "Gujarat",
+    "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+    "isCountry": false,
+    "primaryColor": null,
+    "image": {
+      "id": 334707,
+      "objectId": 1302048,
+      "slug": "gujarat-titans-team-logo",
+      "url": "/db/PICTURES/CMS/334700/334707.png",
+      "width": 500,
+      "height": 500,
+      "caption": "Gujarat Titans team logo",
+      "longCaption": "Gujarat Titans team logo",
+      "credit": "Gujarat Titans",
+      "photographer": null,
+      "peerUrls": null
+    }
+  },
+  "rank": 1,
+  "seriesPlayed": null,
+  "seriesWon": null,
+  "matchesPlayed": "13",
+  "matchesWon": 9,
+  "matchesLost": 4,
+  "matchesTied": 0,
+  "matchesDrawn": 0,
+  "matchesNoResult": 0,
+  "points": 18,
+  "quotient": null,
+  "nrr": 0.835,
+  "rpwr": null,
+  "for": "2252/249.0",
+  "against": "2129/259.2",
+  "pct": null,
+  "recentMatches": [
+    {
+      "_uid": 108849,
+      "id": 108849,
+      "objectId": 1359536,
+      "slug": "gujarat-titans-vs-sunrisers-hyderabad-62nd-match",
+      "title": "62nd Match",
+      "startDate": "2023-05-15T00:00:00.000Z",
+      "startTime": "2023-05-15T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 34 runs",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 314284,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "188/9",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 5143,
+            "objectId": 628333,
+            "slug": "sunrisers-hyderabad",
+            "name": "Sunrisers",
+            "longName": "Sunrisers Hyderabad",
+            "abbreviation": "SRH",
+            "imageUrl": "/db/PICTURES/CMS/313400/313480.logo.png",
+            "unofficialName": "Hyderabad"
+          },
+          "isLive": false,
+          "score": "154/9",
+          "scoreInfo": "20 ov, T:189"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108844,
+      "id": 108844,
+      "objectId": 1359531,
+      "slug": "mumbai-indians-vs-gujarat-titans-57th-match",
+      "title": "57th Match",
+      "startDate": "2023-05-12T00:00:00.000Z",
+      "startTime": "2023-05-12T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 4346,
+      "status": "RESULT",
+      "statusText": "Mumbai won by 27 runs",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 314171,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 713,
+        "objectId": 58324,
+        "name": "Wankhede Stadium, Mumbai",
+        "smallName": "Wankhede",
+        "longName": "Wankhede Stadium, Mumbai",
+        "slug": "wankhede-stadium-mumbai",
+        "location": "",
+        "image": {
+          "id": 128755,
+          "objectId": 502224,
+          "slug": "the-wankhede-stadium-under-lights",
+          "url": "/db/PICTURES/CMS/128700/128755.4.jpg",
+          "width": 210,
+          "height": 137,
+          "caption": "The Wankhede Stadium under lights",
+          "longCaption": "The Wankhede Stadium under lights, Mumbai, February 20, 2011",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 665,
+          "objectId": 58316,
+          "name": "Mumbai",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4346,
+            "objectId": 335978,
+            "slug": "mumbai-indians",
+            "name": "Mumbai",
+            "longName": "Mumbai Indians",
+            "abbreviation": "MI",
+            "imageUrl": "/db/PICTURES/CMS/344000/344062.png",
+            "unofficialName": "Mumbai"
+          },
+          "isLive": false,
+          "score": "218/5",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "191/8",
+          "scoreInfo": "20 ov, T:219"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108838,
+      "id": 108838,
+      "objectId": 1359525,
+      "slug": "gujarat-titans-vs-lucknow-super-giants-51st-match",
+      "title": "51st Match",
+      "startDate": "2023-05-07T00:00:00.000Z",
+      "startTime": "2023-05-07T10:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 56 runs",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 314028,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "227/2",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6903,
+            "objectId": 1298768,
+            "slug": "lucknow-super-giants",
+            "name": "Super Giants",
+            "longName": "Lucknow Super Giants",
+            "abbreviation": "LSG",
+            "imageUrl": "/db/PICTURES/CMS/333800/333885.png",
+            "unofficialName": "Lucknow"
+          },
+          "isLive": false,
+          "score": "171/7",
+          "scoreInfo": "20 ov, T:228"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108835,
+      "id": 108835,
+      "objectId": 1359522,
+      "slug": "rajasthan-royals-vs-gujarat-titans-48th-match",
+      "title": "48th Match",
+      "startDate": "2023-05-05T00:00:00.000Z",
+      "startTime": "2023-05-05T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 9 wickets (with 37 balls remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313961,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 664,
+        "objectId": 58162,
+        "name": "Sawai Mansingh Stadium, Jaipur",
+        "smallName": "Jaipur",
+        "longName": "Sawai Mansingh Stadium, Jaipur",
+        "slug": "sawai-mansingh-stadium-jaipur",
+        "location": "",
+        "image": {
+          "id": 67517,
+          "objectId": 263539,
+          "slug": "a-general-view-of-the-sawai-mansingh-stadium-jaipur",
+          "url": "/db/PICTURES/CMS/67500/67517.1.jpg",
+          "width": 210,
+          "height": 136,
+          "caption": "A general view of the Sawai Mansingh Stadium, Jaipur",
+          "longCaption": "A general view of the Sawai Mansingh Stadium, Pakistan v Sri Lanka, 3rd match, Jaipur, October 17, 2006",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 617,
+          "objectId": 58156,
+          "name": "Jaipur",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4345,
+            "objectId": 335977,
+            "slug": "rajasthan-royals",
+            "name": "Royals",
+            "longName": "Rajasthan Royals",
+            "abbreviation": "RR",
+            "imageUrl": "/db/PICTURES/CMS/313400/313423.logo.png",
+            "unofficialName": "Rajasthan"
+          },
+          "isLive": false,
+          "score": "118",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "119/1",
+          "scoreInfo": "13.5/20 ov, T:119"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108831,
+      "id": 108831,
+      "objectId": 1359518,
+      "slug": "gujarat-titans-vs-delhi-capitals-44th-match",
+      "title": "44th Match",
+      "startDate": "2023-05-02T00:00:00.000Z",
+      "startTime": "2023-05-02T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 4344,
+      "status": "RESULT",
+      "statusText": "Capitals won by 5 runs",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313888,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4344,
+            "objectId": 335975,
+            "slug": "delhi-capitals",
+            "name": "Capitals",
+            "longName": "Delhi Capitals",
+            "abbreviation": "DC",
+            "imageUrl": "/db/PICTURES/CMS/313400/313422.logo.png",
+            "unofficialName": "Delhi"
+          },
+          "isLive": false,
+          "score": "130/8",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "125/6",
+          "scoreInfo": "20 ov, T:131"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108826,
+      "id": 108826,
+      "objectId": 1359513,
+      "slug": "kolkata-knight-riders-vs-gujarat-titans-39th-match",
+      "title": "39th Match",
+      "startDate": "2023-04-29T00:00:00.000Z",
+      "startTime": "2023-04-29T10:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 7 wickets (with 13 balls remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313798,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 292,
+        "objectId": 57980,
+        "name": "Eden Gardens, Kolkata",
+        "smallName": "Eden Gardens",
+        "longName": "Eden Gardens, Kolkata",
+        "slug": "eden-gardens-kolkata",
+        "location": "",
+        "image": {
+          "id": 128035,
+          "objectId": 500114,
+          "slug": "an-aerial-view-of-the-eden-gardens-at-its-current-state-of-completion",
+          "url": "/db/PICTURES/CMS/128000/128035.6.jpg",
+          "width": 210,
+          "height": 140,
+          "caption": "An aerial view of the Eden Gardens at its current state of completion",
+          "longCaption": "An aerial view of the Eden Gardens at its current state of completion, Kolkata, February 9, 2011",
+          "credit": null,
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 574,
+          "objectId": 57976,
+          "name": "Kolkata",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4341,
+            "objectId": 335971,
+            "slug": "kolkata-knight-riders",
+            "name": "KKR",
+            "longName": "Kolkata Knight Riders",
+            "abbreviation": "KKR",
+            "imageUrl": "/db/PICTURES/CMS/313400/313419.logo.png",
+            "unofficialName": "Kolkata"
+          },
+          "isLive": false,
+          "score": "179/7",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "180/3",
+          "scoreInfo": "17.5/20 ov, T:180"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108822,
+      "id": 108822,
+      "objectId": 1359509,
+      "slug": "gujarat-titans-vs-mumbai-indians-35th-match",
+      "title": "35th Match",
+      "startDate": "2023-04-25T00:00:00.000Z",
+      "startTime": "2023-04-25T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 55 runs",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313691,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "207/6",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 4346,
+            "objectId": 335978,
+            "slug": "mumbai-indians",
+            "name": "Mumbai",
+            "longName": "Mumbai Indians",
+            "abbreviation": "MI",
+            "imageUrl": "/db/PICTURES/CMS/344000/344062.png",
+            "unofficialName": "Mumbai"
+          },
+          "isLive": false,
+          "score": "152/9",
+          "scoreInfo": "20 ov, T:208"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108817,
+      "id": 108817,
+      "objectId": 1359504,
+      "slug": "lucknow-super-giants-vs-gujarat-titans-30th-match",
+      "title": "30th Match",
+      "startDate": "2023-04-22T00:00:00.000Z",
+      "startTime": "2023-04-22T10:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 7 runs",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313592,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 3355,
+        "objectId": 1070094,
+        "name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+        "smallName": "Lucknow",
+        "longName": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+        "slug": "bharat-ratna-shri-atal-bihari-vajpayee-ekana-cricket-stadium-lucknow",
+        "location": "",
+        "image": null,
+        "town": {
+          "id": 651,
+          "objectId": 58270,
+          "name": "Lucknow",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "135/6",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6903,
+            "objectId": 1298768,
+            "slug": "lucknow-super-giants",
+            "name": "Super Giants",
+            "longName": "Lucknow Super Giants",
+            "abbreviation": "LSG",
+            "imageUrl": "/db/PICTURES/CMS/333800/333885.png",
+            "unofficialName": "Lucknow"
+          },
+          "isLive": false,
+          "score": "128/7",
+          "scoreInfo": "20 ov, T:136"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108810,
+      "id": 108810,
+      "objectId": 1359497,
+      "slug": "gujarat-titans-vs-rajasthan-royals-23rd-match",
+      "title": "23rd Match",
+      "startDate": "2023-04-16T00:00:00.000Z",
+      "startTime": "2023-04-16T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 4345,
+      "status": "RESULT",
+      "statusText": "Royals won by 3 wickets (with 4 balls remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313419,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "177/7",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 4345,
+            "objectId": 335977,
+            "slug": "rajasthan-royals",
+            "name": "Royals",
+            "longName": "Rajasthan Royals",
+            "abbreviation": "RR",
+            "imageUrl": "/db/PICTURES/CMS/313400/313423.logo.png",
+            "unofficialName": "Rajasthan"
+          },
+          "isLive": false,
+          "score": "179/7",
+          "scoreInfo": "19.2/20 ov, T:178"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108805,
+      "id": 108805,
+      "objectId": 1359492,
+      "slug": "punjab-kings-vs-gujarat-titans-18th-match",
+      "title": "18th Match",
+      "startDate": "2023-04-13T00:00:00.000Z",
+      "startTime": "2023-04-13T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 6 wickets (with 1 ball remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313355,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 1015,
+        "objectId": 57991,
+        "name": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+        "smallName": "Mohali",
+        "longName": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+        "slug": "punjab-cricket-association-is-bindra-stadium-mohali-chandigarh",
+        "location": "Mohali",
+        "image": {
+          "id": 43022,
+          "objectId": 57989,
+          "slug": "chandigarh-happens-to-be-india-s-first-planned-city-and-it-does-show",
+          "url": "/db/PICTURES/DB/112001/031913.1.jpg",
+          "width": 300,
+          "height": 150,
+          "caption": "Chandigarh happens to be India's first planned city and it does show",
+          "longCaption": "Punjab Cricket Association Stadium, Chandigarh, Chandigarh happens to be India's first planned city and it does show, Uploaded on 27 November 2001.",
+          "credit": "Punjab Cricket Association",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 576,
+          "objectId": 57990,
+          "name": "Chandigarh",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4342,
+            "objectId": 335973,
+            "slug": "punjab-kings",
+            "name": "Punjab Kings",
+            "longName": "Punjab Kings",
+            "abbreviation": "PBKS",
+            "imageUrl": "/db/PICTURES/CMS/317000/317003.png",
+            "unofficialName": "Punjab"
+          },
+          "isLive": false,
+          "score": "153/8",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "154/4",
+          "scoreInfo": "19.5/20 ov, T:154"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108800,
+      "id": 108800,
+      "objectId": 1359487,
+      "slug": "gujarat-titans-vs-kolkata-knight-riders-13th-match",
+      "title": "13th Match",
+      "startDate": "2023-04-09T00:00:00.000Z",
+      "startTime": "2023-04-09T10:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 4341,
+      "status": "RESULT",
+      "statusText": "KKR won by 3 wickets (with 0 balls remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313233,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "204/4",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 4341,
+            "objectId": 335971,
+            "slug": "kolkata-knight-riders",
+            "name": "KKR",
+            "longName": "Kolkata Knight Riders",
+            "abbreviation": "KKR",
+            "imageUrl": "/db/PICTURES/CMS/313400/313419.logo.png",
+            "unofficialName": "Kolkata"
+          },
+          "isLive": false,
+          "score": "207/7",
+          "scoreInfo": "20 ov, T:205"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108794,
+      "id": 108794,
+      "objectId": 1359481,
+      "slug": "delhi-capitals-vs-gujarat-titans-7th-match",
+      "title": "7th Match",
+      "startDate": "2023-04-04T00:00:00.000Z",
+      "startTime": "2023-04-04T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 6 wickets (with 11 balls remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 313084,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 333,
+        "objectId": 58040,
+        "name": "Arun Jaitley Stadium, Delhi",
+        "smallName": "Delhi",
+        "longName": "Arun Jaitley Stadium, Delhi",
+        "slug": "arun-jaitley-stadium-delhi",
+        "location": "",
+        "image": {
+          "id": 61133,
+          "objectId": 242730,
+          "slug": "england-practice-session-in-full-flow",
+          "url": "/db/PICTURES/CMS/61100/61133.1.jpg",
+          "width": 210,
+          "height": 141,
+          "caption": "England practice session in full flow",
+          "longCaption": "England practice session in full flow at the  Feroz Shah Kotla Stadium, Delhi, March 30, 2006",
+          "credit": "Getty Images",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 584,
+          "objectId": 58036,
+          "name": "Delhi",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4344,
+            "objectId": 335975,
+            "slug": "delhi-capitals",
+            "name": "Capitals",
+            "longName": "Delhi Capitals",
+            "abbreviation": "DC",
+            "imageUrl": "/db/PICTURES/CMS/313400/313422.logo.png",
+            "unofficialName": "Delhi"
+          },
+          "isLive": false,
+          "score": "162/8",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "163/4",
+          "scoreInfo": "18.1/20 ov, T:163"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    },
+    {
+      "_uid": 108788,
+      "id": 108788,
+      "objectId": 1359475,
+      "slug": "gujarat-titans-vs-chennai-super-kings-1st-match",
+      "title": "1st Match",
+      "startDate": "2023-03-31T00:00:00.000Z",
+      "startTime": "2023-03-31T14:00:00.000Z",
+      "format": "T20",
+      "isCancelled": false,
+      "stage": "FINISHED",
+      "state": "POST",
+      "winnerTeamId": 6904,
+      "status": "RESULT",
+      "statusText": "Titans won by 5 wickets (with 4 balls remaining)",
+      "statusEng": "RESULT",
+      "resultStatus": 1,
+      "previewStoryId": 312958,
+      "coverage": "Y",
+      "series": {
+        "id": 15129,
+        "objectId": 1345038,
+        "slug": "indian-premier-league-2023",
+        "name": "Indian Premier League",
+        "longName": "Indian Premier League",
+        "alternateName": "IPL 2023",
+        "longAlternateName": null,
+        "unofficialName": null,
+        "season": "2023",
+        "typeId": 3
+      },
+      "ground": {
+        "id": 840,
+        "objectId": 57851,
+        "name": "Narendra Modi Stadium, Ahmedabad",
+        "smallName": "Ahmedabad",
+        "longName": "Narendra Modi Stadium, Ahmedabad",
+        "slug": "narendra-modi-stadium-motera-ahmedabad",
+        "location": "Motera",
+        "image": {
+          "id": 66837,
+          "objectId": 261701,
+          "slug": "sardar-patel-stadium-in-ahmedabad",
+          "url": "/db/PICTURES/CMS/66800/66837.2.jpg",
+          "width": 210,
+          "height": 133,
+          "caption": "Sardar Patel stadium in Ahmedabad",
+          "longCaption": "Sardar Patel stadium in Ahmedabad",
+          "credit": "AFP",
+          "photographer": null,
+          "peerUrls": null
+        },
+        "town": {
+          "id": 534,
+          "objectId": 57847,
+          "name": "Ahmedabad",
+          "area": "",
+          "timezone": "Asia/Kolkata"
+        },
+        "country": {
+          "id": 6,
+          "objectId": 6,
+          "name": "India",
+          "shortName": "India",
+          "abbreviation": "IND",
+          "slug": "india"
+        }
+      },
+      "teams": [
+        {
+          "team": {
+            "id": 4343,
+            "objectId": 335974,
+            "slug": "chennai-super-kings",
+            "name": "Super Kings",
+            "longName": "Chennai Super Kings",
+            "abbreviation": "CSK",
+            "imageUrl": "/db/PICTURES/CMS/313400/313421.logo.png",
+            "unofficialName": "Chennai"
+          },
+          "isLive": false,
+          "score": "178/7",
+          "scoreInfo": null
+        },
+        {
+          "team": {
+            "id": 6904,
+            "objectId": 1298769,
+            "slug": "gujarat-titans",
+            "name": "Titans",
+            "longName": "Gujarat Titans",
+            "abbreviation": "GT",
+            "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+            "unofficialName": "Gujarat"
+          },
+          "isLive": false,
+          "score": "182/5",
+          "scoreInfo": "19.2/20 ov, T:179"
+        }
+      ],
+      "languages": [
+        "hi",
+        "ta"
+      ]
+    }
+  ],
+  "nextMatch": {
+    "_uid": 108857,
+    "id": 108857,
+    "objectId": 1359544,
+    "slug": "royal-challengers-bangalore-vs-gujarat-titans-70th-match",
+    "title": "70th Match",
+    "startDate": "2023-05-21T00:00:00.000Z",
+    "startTime": "2023-05-21T14:00:00.000Z",
+    "format": "T20",
+    "isCancelled": false,
+    "stage": "SCHEDULED",
+    "state": "PRE",
+    "winnerTeamId": null,
+    "status": "{{MATCH_START_TIME}}",
+    "statusText": "Match yet to begin",
+    "statusEng": "{{MATCH_START_TIME}}",
+    "resultStatus": null,
+    "previewStoryId": null,
+    "coverage": "Y",
+    "series": {
+      "id": 15129,
+      "objectId": 1345038,
+      "slug": "indian-premier-league-2023",
+      "name": "Indian Premier League",
+      "longName": "Indian Premier League",
+      "alternateName": "IPL 2023",
+      "longAlternateName": null,
+      "unofficialName": null,
+      "season": "2023",
+      "typeId": 3
+    },
+    "ground": {
+      "id": 683,
+      "objectId": 57897,
+      "name": "M Chinnaswamy Stadium, Bengaluru",
+      "smallName": "Bengaluru",
+      "longName": "M Chinnaswamy Stadium, Bengaluru",
+      "slug": "m-chinnaswamy-stadium-bengaluru",
+      "location": "",
+      "image": {
+        "id": 127631,
+        "objectId": 498407,
+        "slug": "a-view-of-the-chinnaswamy-stadium-in-bangalore",
+        "url": "/db/PICTURES/CMS/127600/127631.4.jpg",
+        "width": 210,
+        "height": 132,
+        "caption": "A view of the Chinnaswamy Stadium in Bangalore",
+        "longCaption": "A view of the Chinnaswamy Stadium in Bangalore",
+        "credit": "AFP",
+        "photographer": null,
+        "peerUrls": null
+      },
+      "town": {
+        "id": 549,
+        "objectId": 57892,
+        "name": "Bengaluru",
+        "area": "",
+        "timezone": "Asia/Kolkata"
+      },
+      "country": {
+        "id": 6,
+        "objectId": 6,
+        "name": "India",
+        "shortName": "India",
+        "abbreviation": "IND",
+        "slug": "india"
+      }
+    },
+    "teams": [
+      {
+        "team": {
+          "id": 4340,
+          "objectId": 335970,
+          "slug": "royal-challengers-bangalore",
+          "name": "RCB",
+          "longName": "Royal Challengers Bangalore",
+          "abbreviation": "RCB",
+          "imageUrl": "/db/PICTURES/CMS/313400/313418.logo.png",
+          "unofficialName": "Bangalore"
+        },
+        "isLive": false,
+        "score": null,
+        "scoreInfo": null
+      },
+      {
+        "team": {
+          "id": 6904,
+          "objectId": 1298769,
+          "slug": "gujarat-titans",
+          "name": "Titans",
+          "longName": "Gujarat Titans",
+          "abbreviation": "GT",
+          "imageUrl": "/db/PICTURES/CMS/334700/334707.png",
+          "unofficialName": "Gujarat"
+        },
+        "isLive": false,
+        "score": null,
+        "scoreInfo": null
+      }
+    ],
+    "languages": [
+      "hi",
+      "ta"
+    ]
+  }
+}

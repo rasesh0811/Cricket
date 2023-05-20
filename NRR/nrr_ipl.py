@@ -66,7 +66,7 @@ def print_current_nrrs():
   table = [['Team Code','Team Name', 'NRR']]
   for teamCode in teams:
     teamObject = teams[teamCode]
-    tableRow = [teamCode, teamObject.name, str(round(teamObject.currentNRR(), 3))]
+    tableRow = [teamCode, teamObject.name, str(round(teamObject.currentNRR(), 4))]
     table.append(tableRow)
   print(tabulate(table, headers='firstrow', tablefmt='fancy_grid'))
 
@@ -146,11 +146,12 @@ def compare():
   checkForAParticularScore = int(input("Enter custom value for runs conceded: "))
   if(checkForAParticularScore>0):
     runsConcededInFinalInnings.append(checkForAParticularScore)
+  scoreDiff = int(input('Enter final score difference(0 for super over victory, default = 1): ') or 1)
   for runsConcededInCurrentInnings in runsConcededInFinalInnings:
     
 
     #TEAM1
-    rs1 = myTeam.runsScored + runsConcededInCurrentInnings # + 1 not needed for a super over victory
+    rs1 = myTeam.runsScored + runsConcededInCurrentInnings + scoreDiff
     bf1 = myTeam.ballsFaced #+ toBeChasedInBalls
     rc1 = myTeam.runsConceded + runsConcededInCurrentInnings
     bd1 = myTeam.ballsDelivered + ballsPerInnings
@@ -158,7 +159,7 @@ def compare():
     #TEAM2
     rs2 = oppTeam.runsScored + runsConcededInCurrentInnings
     bf2 = oppTeam.ballsFaced + ballsPerInnings
-    rc2 = oppTeam.runsConceded + runsConcededInCurrentInnings # + 1 not needed for a super over victory
+    rc2 = oppTeam.runsConceded + runsConcededInCurrentInnings + scoreDiff
     bd2 = oppTeam.ballsDelivered #+ toBeChasedInBalls
 
     #rs1/(bf1+toBeChasedInBalls) + rc2/(bd2+toBeChasedInBalls) = rs2/bf2 + rc1/bd1 
@@ -201,7 +202,7 @@ def acquireTargetNRR():
   if teamCode in teams:
     teamObject = teams[teamCode]
     print("Calculating for Team: "+teamObject.name)
-    print("Current NRR: "+str(round(teamObject.currentNRR(), 3)))
+    print("Current NRR: "+str(round(teamObject.currentNRR(), 4)))
   
   bowl1 = teamObject.ballsFaced
   bowl2 = teamObject.ballsDelivered
@@ -239,11 +240,12 @@ def acquireTargetNRR():
     ballsDelivered = bowl2 + ballsPerInnings
     runsConcededInFinalInnings = [i for i in range(expected_min_total,expected_max_total,runs_in_increments_of)]
     checkForAParticularScore = int(input("Enter custom value for runsConceded: "))
+    scoreDiff = int(input('Enter final score difference(0 for super over victory, default = 1): ') or 1)
     if(checkForAParticularScore>0):
       runsConcededInFinalInnings.append(checkForAParticularScore)
     for runsConceded in runsConcededInFinalInnings:
       totalRunsConceded = bat2 + runsConceded
-      totalRunsScored = bat1 + runsConceded # + 1 , if atleast 1 more than the other team, else a SUPER OVER victory
+      totalRunsScored = bat1 + runsConceded + scoreDiff
       #targetNRR = ((totalRunsScored/(ballsFaced +toBeChasedInBalls) - (totalRunsConceded/ballsDelivered)))*6
       toBeChasedInBalls = (totalRunsScored/((targetNRR/6) + (totalRunsConceded/ballsDelivered))) - ballsFaced
       toBeChasedInBalls = math.floor(toBeChasedInBalls)
@@ -271,7 +273,7 @@ def barestOfMarginForNonDecrementOfNRR():
   if teamCode in teams:
     teamObject = teams[teamCode]
     print("Calculating for Team: "+teamObject.name)
-    print("Current NRR: "+str(round(teamObject.currentNRR(), 3)))
+    print("Current NRR: "+str(round(teamObject.currentNRR(), 4)))
   
   print("When my team bats first")
   compare_table_set_target = []

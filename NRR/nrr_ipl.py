@@ -196,7 +196,7 @@ def compare():
   print(tabulate(compare_table_set_target, headers=['Runs Scored', 'Margin of Victory Required'], tablefmt='fancy_grid'))
   print(tabulate(compare_table_chase, headers=['Runs Conceded', 'To be chased in Balls'], tablefmt='fancy_grid'))
 
-def acquireTargetNRR():
+def winAndAcquireTargetNRR():
   teamCode = input("Enter team code ("+str(team_codes_list)+") : ")
   teamCode = teamCode.upper()
   if teamCode in teams:
@@ -222,7 +222,6 @@ def acquireTargetNRR():
       runsInFinalInnings.append(checkForAParticularScore)
     for runsScored in runsInFinalInnings:
       totalRunsScored = bat1 + runsScored
-      marginOfVictory = 0  
       #targetNRR = (totalRunsScored/ballsFaced - (bat2 + runsScored - marginOfVictory)/ballsDelivered)*6
       marginOfVictory = bat2 + runsScored - ((totalRunsScored/ballsFaced) - (targetNRR/6))*ballsDelivered
       marginOfVictory = math.ceil(marginOfVictory)
@@ -266,7 +265,7 @@ def customCheckNRR():
   nrr = (totalRunsScored/totalBallsFaced - totalRunsConceded/totalBallsDelivered)*6
   print("Current NRR = "+ str(nrr))
 
-def barestOfMarginForNonDecrementOfNRR():
+def barestVictoryMarginForNonDecrementOfNRR():
   '''Finding the barest of margin required for keeping NRR atleast what it is at the moment'''
   teamCode = input("Enter team code ("+str(team_codes_list)+") : ")
   teamCode = teamCode.upper()
@@ -382,10 +381,10 @@ while True:
   print("============================")
   print("1. Print NRR For all teams.")
   print("2. Add a new team data.")
-  print("3. Acquire target NRR.")
+  print("3. Acquire target NRR(By Winning).")
   print("4. Compare NRR.")
   print("5. Check Custom NRR.")
-  print("6. Minimum margin to avoid decrement of NRR")
+  print("6. Minimum victory margin to avoid decrement of NRR")
   print("7. Fetch Points Table Data")
   print("8. Save Data and Reset")
   print("9. Load Saved Data From Files")
@@ -397,13 +396,13 @@ while True:
   elif (choice == 2):
     add_new_team()
   elif (choice == 3):
-    acquireTargetNRR()
+    winAndAcquireTargetNRR()
   elif (choice == 4):
     compare()
   elif (choice == 5):
     customCheckNRR()
   elif (choice == 6):
-    barestOfMarginForNonDecrementOfNRR()
+    barestVictoryMarginForNonDecrementOfNRR()
   elif (choice == 7):
     fetchPointsTable()
   elif (choice == 8):
